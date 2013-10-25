@@ -83,7 +83,7 @@ describe User do
   		it { should be_invalid }
   	end
 
-  	describe "retunr value of authenticate method" do
+  	describe "return value of authenticate method" do
   		before { @user.save }
   		let (:found_user) { User.find_by(email: @user.email) }
 
